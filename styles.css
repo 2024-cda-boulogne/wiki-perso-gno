@@ -11,8 +11,8 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #56c8d0;
-    --side-nav: #616161;
+    --nav-color: #56a7d0;
+    --side-nav: #c3c3c3;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
     --search-text: #010718;
@@ -209,5 +209,16 @@ nav .nav-bar .logo a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20%;
+    margin-top: 15%;
+}
+
+.merise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+h1{
+    font-size: 40px;
 }
