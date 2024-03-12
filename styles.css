@@ -22,7 +22,7 @@ body {
 }
 
 body.dark {
-  --body-color: #707274;
+  --body-color: #888b8f;
   --nav-color: #242526;
   --side-nav: #242526;
   --text-color: #ffffff;
@@ -302,4 +302,9 @@ code {
 
 img {
   width: 90%;
+}
+
+h1{
+  color: var(--text-color);
+  text-decoration: none;
 }
