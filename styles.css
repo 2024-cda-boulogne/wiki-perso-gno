@@ -11,7 +11,7 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #56a7d0;
+    --nav-color: #005a87;
     --side-nav: #c3c3c3;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
@@ -224,9 +224,6 @@ h1{
     font-size: 40px;
 }
 
-
-
-
 /* git page */
 .titre{
     margin-top: 90px;
@@ -289,3 +286,24 @@ h1{
       width: 95%;
     }
   }
+
+  /* page merise */
+
+  .merise-command-container{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    text-align: left;
+    margin: 20px;
+  }
+
+  .merise{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
