@@ -14,7 +14,7 @@ modeToggle.addEventListener("click", () => {
   modeToggle.classList.toggle("active");
   body.classList.toggle("dark");
 
-  // js code to keep user selected mode even page refresh or file reopen
+  // code pour le darkmode refresh
   if (!body.classList.contains("dark")) {
     localStorage.setItem("mode", "light-mode");
   } else {
