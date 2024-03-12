@@ -223,3 +223,69 @@ nav .nav-bar .logo a{
 h1{
     font-size: 40px;
 }
+
+
+
+
+/* git page */
+.titre{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.git{
+    margin: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.git-command-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.6;
+  }
+
+  code {
+    font-family: 'Courier New', monospace;
+    background-color: #f7f7f7;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .container {
+      width: 95%;
+    }
+  }
