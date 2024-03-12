@@ -213,12 +213,7 @@ nav .nav-bar .logo a{
     
 }
 
-.merise{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15%;
-}
+
 
 h1{
     font-size: 40px;
