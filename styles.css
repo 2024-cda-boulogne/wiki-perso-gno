@@ -209,9 +209,7 @@ nav .nav-bar .logo a {
   margin-top: 20%;
 }
 
-h1 {
-  font-size: 40px;
-}
+
 
 /* git page */
 .titre {
@@ -248,10 +246,6 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* h1 {
-  color: #333;
-
-} */
 
 p {
   color: #666;
@@ -292,8 +286,6 @@ code {
 }
 
 .merise {
-  /* display: flex;
-    flex-wrap: wrap; */
   margin: 40px;
   display: flex;
   gap: 10px;
@@ -308,6 +300,7 @@ img {
 h1.dark-light.active{
   color: var(--text-color);
   text-decoration: none;
+  font-size: 40px;
 }
 
 .uml-command-container{
