@@ -323,3 +323,37 @@ h1.dark-light.active{
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* a propos */
+
+/* ... (votre code CSS existant reste inchangé) ... */
+
+#aboutModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+#aboutInfoContainer {
+  text-align: center;
+}
+
+#aboutInfoContainer p {
+  margin: 10px 0;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
