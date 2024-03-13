@@ -3,6 +3,7 @@ const body = document.querySelector("body"),
   modeToggle = document.querySelector(".dark-light"),
   sidebarOpen = document.querySelector(".sidebarOpen"),
   siderbarClose = document.querySelector(".siderbarClose");
+  
 
 let getMode = localStorage.getItem("mode");
 if (getMode && getMode === "dark-mode") {
@@ -14,7 +15,7 @@ modeToggle.addEventListener("click", () => {
   modeToggle.classList.toggle("active");
   body.classList.toggle("dark");
 
-  // js code to keep user selected mode even page refresh or file reopen
+  // code pour le darkmode refresh
   if (!body.classList.contains("dark")) {
     localStorage.setItem("mode", "light-mode");
   } else {
@@ -36,4 +37,28 @@ body.addEventListener("click", (e) => {
   ) {
     nav.classList.remove("active");
   }
+});
+
+
+// apropos
+
+document.addEventListener('DOMContentLoaded', function () {
+  const aboutLink = document.querySelector('.aboutLink');
+  const aboutModal = document.getElementById('aboutModal');
+  const closeBtn = document.getElementById('closeBtn');
+
+  aboutLink.addEventListener('click', function (event) {
+    event.preventDefault(); // Empêche le comportement de lien par défaut
+    aboutModal.style.display = 'block';
+  });
+
+  closeBtn.addEventListener('click', function () {
+    aboutModal.style.display = 'none';
+  });
+
+  window.addEventListener('click', function (event) {
+    if (event.target === aboutModal) {
+      aboutModal.style.display = 'none';
+    }
+  });
 });
