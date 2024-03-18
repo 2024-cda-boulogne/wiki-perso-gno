@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /cgi-bin/
+Disallow: /images/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /temp/
+Disallow: /temporarily-offline/
+Disallow: /error/
+Disallow: /404/
+Disallow: /403/
+Disallow: /500/
+Disallow: /search/
+Disallow: /tag/
+Disallow: /category/
+Disallow: /author/
+Disallow: /page/
+Disallow: /archive/
+
+Sitemap: https://www.example.com/sitemap.xml
